@@ -1,3 +1,15 @@
+/* 
+---01 TYPOGRAPHY SYSTEM
+
+  -Font sizes (px) :
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+---07 WHITESPACE
+  -SPACING SYSTEM (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+  */
+
 * {
   margin: 0;
   padding: 0;
@@ -58,4 +70,58 @@ body {
   height: 800px;
   flex-shrink: 0;
   margin-right: 196px;
+}
+
+/* Featured section styles */
+.featured-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 64px;
+  margin-top: 84px;
+}
+.featured-text-container {
+  text-align: center;
+}
+.featured-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.featured-text {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.featured-samples {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.sample-img1 {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 110px 75px 0 75px;
+}
+
+.sample-img2 {
+  width: 464px;
+  height: 538px;
+  padding: 117px 48px 48px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.sample-img3 {
+  width: 464px;
+  height: 538px;
+  padding: 67px 75px 0 75px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
 }
