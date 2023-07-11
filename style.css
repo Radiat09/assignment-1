@@ -103,6 +103,18 @@ body {
   align-items: center;
   gap: 24px;
 }
+.sample {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sample-text {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 32px;
+  text-decoration: underline;
+}
 .sample-img1 {
   width: 464px;
   height: 538px;
@@ -124,4 +136,62 @@ body {
   padding: 67px 75px 0 75px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
+}
+
+.featured-features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  height: 320px;
+  margin: 128px auto;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+.feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 64px;
+}
+.feature-icon {
+  width: 88px;
+  height: 88px;
+  padding-bottom: 12px;
+}
+
+/* Hot Deal Section styles */
+.hot-deal-section {
+  background: rgba(229, 84, 115, 0.05);
+  width: 1922px;
+  height: 620px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hot-deal-off {
+  color: #e55473;
+}
+.hot-deal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.hot-deal-img {
+  padding: 100px 0;
+}
+
+/* Last Section styles */
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 64px;
+}
+.gallery-imgs {
+  display: flex;
+  align-items: center;
 }
