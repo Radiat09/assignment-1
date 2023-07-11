@@ -204,8 +204,7 @@ body {
   justify-content: center;
   align-items: center;
   row-gap: 24px;
-  margin: 0 auto;
-  margin-top: 128px;
+  margin: 128px auto;
   width: 1440px;
   height: 449px;
   border-radius: 8px;
@@ -220,4 +219,35 @@ body {
   border-radius: 8px;
   padding: 8px 12px;
   margin-right: 12px;
+}
+
+/* Footer section styles */
+.footer {
+  background: #111010;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 1922px;
+  height: 449px;
+}
+.flower-title {
+  color: #e55473;
+  font-size: 48px;
+  font-weight: 800;
+}
+#shop-txt {
+  color: #fff;
+}
+.footer-text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  margin: 32px 0;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 128px;
 }
